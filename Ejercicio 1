@@ -1,14 +1,13 @@
-# Entrada de datos
-EDJUAN = float(input("Ingrese la edad de Juan: "))
+# Entrada edad de Juan
+Edad_Juan = int(input("Ingrese la edad de Juan: "))
 
 # Proceso
-EDALBER = (2/3) * EDJUAN
-EDANA = (4/3) * EDJUAN
-EDMAMA = EDALBER + EDJUAN + EDANA
+Edad_Aberto = int((2/3) * Edad_Juan)
+Edad_Ana = int((4/3) * Edad_Juan)
+Edad_Mama= (Edad_Aberto + Edad_Juan + Edad_Ana)
 
-# Salida de datos
-print("\n--- Resultados ---")
-print(f"Edad de Alberto: {EDALBER:.2f} años")
-print(f"Edad de Juan: {EDJUAN:.2f} años")
-print(f"Edad de Ana: {EDANA:.2f} años")
-print(f"Edad de la mamá: {EDMAMA:.2f} años")
+# Edades
+print(f"Edad de Alberto: {Edad_Aberto} años")
+print(f"Edad de Juan: {Edad_Juan} años")
+print(f"Edad de Ana: {Edad_Ana} años")
+print(f"Edad de la mamá: {Edad_Mama} años")
